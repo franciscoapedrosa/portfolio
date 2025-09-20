@@ -46,7 +46,14 @@ a:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.social-media svg path { fill: currentColor; }
+.social-media svg {
+  width: 28px;
+  height: 28px;
+}
+
+.social-media svg path {
+  fill: currentColor; 
+}
 
 .social-media a.github:hover { 
     background-color: #181717;
